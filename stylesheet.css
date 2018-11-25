@@ -110,7 +110,7 @@ h2{
   border-radius: 5px;
   width: 50%;
   position: relative;
-  transition: all 5s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .popup img{
@@ -257,4 +257,11 @@ h2{
   margin:2em;
   margin-left:5%;
   margin-right: 5%;
+}
+
+.download{
+  display: inline-block;
+}
+.download:hover{
+  text-decoration: underline;
 }
