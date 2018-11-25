@@ -1,0 +1,260 @@
+body{
+	top: 0;
+	margin:0;
+	overflow-y: scroll;
+	overflow-x: none;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+.main-header .main-body-nav{
+	display: inline-block;
+	color: #FFF;
+	font-family:'Raleway';
+	width: 100%;
+	right:0;
+	top:0;
+	clear:both;
+	margin-bottom: 1%;
+	text-decoration-style: none;
+}
+.main-header{
+	background-color: #333;
+	width:100%;
+	position: relative;
+	clear: both;
+	overflow:hidden
+}
+.main-header .left-narration{
+	clear:both;
+	width:100%;
+	z-index: 10;
+}
+.main-header .left-narration img{
+	width: 10%;
+}
+.main-header .main-body-nav  > a{
+  display: inline-block;
+  font-weight: bold;
+  color:#fff;
+  text-decoration: none;
+  padding: 1.2em;
+  margin-left: 4px;
+  border: 2px solid transparent;
+}
+
+.main-body-nav > a:hover{
+  	opacity:.5;
+  	border: 2px solid #7C7BF2;
+    color:#7C7BF2;
+}
+ .byCategory-options {
+	display: none;
+	position: relative;
+  margin-top:5%;
+  z-index: 100;
+  margin-left: -12%;
+  width: 13%;
+}
+
+a:hover:nth-child(1n+4) + .byCategory-options {
+	color:#fff;
+  display:inline-block;
+  position: fixed;
+}
+
+.byCategory-options {
+	background-color: #333;
+}
+
+.byCategory-options > a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    font-weight: bold;
+  	color:#fff;
+  	text-decoration: none;
+}
+
+.byCategory-options >  a:hover {
+    display: inline-block;
+    position: fixed;
+}
+
+h2{
+	margin-left: 5%;
+	font-family: Raleway;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 5% auto auto auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup img{
+    width:80%;
+    align-content: center;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.popup .content a:hover{
+    opacity: .6;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .content {
+  max-height: 50%;
+  font-size:1.1em;
+}
+
+.popup .content a {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding: inherit;
+  text-decoration: underline;
+}
+
+.gallery {
+    margin: 10px;
+    border: 2px solid #ccc;
+    width: 15%;
+    padding: 1em;
+    border-radius: 2px;
+    opacity: .6;
+}
+
+.gallery:hover {
+    opacity: 1;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.summary {
+    text-align: center;
+    font-family: Raleway;
+}
+
+.title{
+	font-family: Raleway;
+	font-size: 1.6em;
+	padding-left: 5%;
+	padding-top: 10px;
+}
+
+
+#clockdiv {
+  color: #fff;
+  display: inline-block;
+  position: static;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2vw;
+  width: 100%;
+  align-content: center;
+}
+
+#clockdiv p {
+  color: #7C7BF2;
+}
+
+#clockdiv>div {
+  padding: .8vw;
+  border-radius: 6px;
+  display: inline-block;
+  background-color: #7C7BF2;
+    /*find new color or remove*/;
+}
+
+#clockdiv div>span {
+  padding: 1vw;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 1.1vw;
+  font-weight: 100;
+  color: #fff;
+}
+
+.footer{
+  position: relative;
+  align-items: center;
+  background-color:rgb(51,51,51,.9);
+  display:block;
+  z-index: 100;
+  margin:0;
+  font-size:.6em;
+  color:#fff;
+  overflow: hidden;
+  clear:both;
+  width: 100%;
+}
+
+.body .post{
+  border: 3px solid #7c7bf2;
+  border-radius: 10px;
+  margin: 2em;
+}
+
+.body{
+  position: static;
+  left:0;
+  right:0;
+  align-items: center;
+  /*background-image: url("images/mountains.jpg");*/
+  height:40vh;
+  background-size: cover;
+  display:block;
+  z-index: 100;
+  display:block;
+  overflow: hidden;
+  clear:both;
+}
+.post p{
+  color:#333;
+  margin:2em;
+  margin-left:5%;
+  margin-right: 5%;
+}
