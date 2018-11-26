@@ -160,14 +160,19 @@ h2 {
    text-decoration: underline;
 }
 
+.main-galley {
+   display: table;
+   width: 80%;
+   border-spacing: 1.4em;
+}
 .gallery {
-   margin: 10px;
+   margin: 1.4em;
    border: 2px solid #ccc;
    width: 15%;
    padding: 1em;
    border-radius: 2px;
    opacity: .6;
-   display: inline-block;
+   display:table-cell;
 }
 
 .gallery:hover {
@@ -182,6 +187,7 @@ h2 {
 .summary {
    text-align: center;
    font-family: Raleway;
+   margin-top: 1em;
 }
 
 .title {
@@ -205,17 +211,10 @@ h2 {
    width: 100%;
 }
 
-.main-body .post {
+.post {
    border: 3px solid #7c7bf2;
    border-radius: 10px;
-   margin: 2em;
    width: 80%;
-}
-
-.main-body {
-   margin: 0;
-   position: absolute;
-   top:40%;
 }
 
 hr {
@@ -223,26 +222,37 @@ hr {
    border-top: 2px solid #7c7bf2;
 }
 
-.body {
+.body{
    align-items: center;
    background-image: url("images/mountains.jpg");
-   height: 80vh;
+   height: 100%;
+   width: 100%;
    background-size: cover;
-   display: block;
-   z-index: -1;
+   display: flex;
+   position: absolute;
    opacity: .4;
    overflow: hidden;
 }
 
+.together{
+   position: relative;
+}
 .post p {
    color: #000;
-   margin: 2em;
    margin-left: 5%;
    margin-right: 5%;
    z-index: 100;
    line-height: 1.7em;
 }
+.main-body .post{
+   margin:2em;
+}
 
+.main-body{
+   margin: 0;
+   top:0;
+   clear: both;
+}
 .download {
    display: inline-block;
 }
