@@ -181,6 +181,9 @@ h2 {
    height: auto;
 }
 
+.table-row{
+   display: table-row;
+}
 .summary {
    text-align: center;
    font-family: Raleway;
