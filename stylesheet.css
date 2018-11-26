@@ -238,6 +238,11 @@ h2{
   left: 0px;
 }
 
+hr{
+  width: 80%;
+  border-top: 2px solid #7c7bf2;
+}
+
 .body{
   position: static;
   left:0;
