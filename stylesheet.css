@@ -11,10 +11,10 @@ body {
    display: inline-flex;
    color: #FFF;
    font-family: 'Raleway';
-   top: 0;
    clear: both;
    margin-bottom: 1%;
    text-decoration-style: none;
+
 }
 
 .main-header {
@@ -253,7 +253,7 @@ h2 {
 .main-body {
    margin: 0;
    position: absolute;
-   top: 37%;
+   top:40%;
    left: 0px;
 }
 
@@ -264,18 +264,17 @@ hr {
 
 .body {
    position: static;
-   left: 0;
-   right: 0;
+   top: 0;
+   margin: 0;
    align-items: center;
    background-image: url("images/mountains.jpg");
-   height: 65vh;
+   height: 80vh;
    background-size: cover;
    display: block;
    z-index: -1;
    opacity: .4;
    display: block;
    overflow: hidden;
-   clear: both;
 }
 
 .post p {
