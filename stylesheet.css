@@ -191,44 +191,6 @@ h2 {
    padding-top: 10px;
 }
 
-
-#clockdiv {
-   color: #fff;
-   display: inline-block;
-   position: static;
-   font-weight: 700;
-   text-align: center;
-   font-size: 2vw;
-   width: 100%;
-   align-content: center;
-}
-
-#clockdiv p {
-   color: #7C7BF2;
-}
-
-#clockdiv>div {
-   padding: .8vw;
-   border-radius: 6px;
-   display: inline-block;
-   background-color: #7C7BF2;
-   /*find new color or remove*/
-   ;
-}
-
-#clockdiv div>span {
-   padding: 1vw;
-   border-radius: 3px;
-   display: inline-block;
-}
-
-.smalltext {
-   padding-top: 5px;
-   font-size: 1.1vw;
-   font-weight: 100;
-   color: #fff;
-}
-
 .footer {
    position: relative;
    align-items: center;
@@ -254,7 +216,6 @@ h2 {
    margin: 0;
    position: absolute;
    top:40%;
-   left: 0px;
 }
 
 hr {
@@ -263,9 +224,6 @@ hr {
 }
 
 .body {
-   position: static;
-   top: 0;
-   margin: 0;
    align-items: center;
    background-image: url("images/mountains.jpg");
    height: 80vh;
@@ -273,7 +231,6 @@ hr {
    display: block;
    z-index: -1;
    opacity: .4;
-   display: block;
    overflow: hidden;
 }
 
@@ -282,7 +239,6 @@ hr {
    margin: 2em;
    margin-left: 5%;
    margin-right: 5%;
-   opacity: 1.5;
    z-index: 100;
    line-height: 1.7em;
 }
