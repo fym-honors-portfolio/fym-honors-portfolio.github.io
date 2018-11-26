@@ -1,7 +1,7 @@
 function password() {
 var password = prompt('Please Enter The Password',' ');
 var count  = 0;
-var ans = "honors";
+var ans = "h0n0rs";
 while (count < 100) { 
 	if(password == ans){
 		download("documents/autumn-reflection.docx");

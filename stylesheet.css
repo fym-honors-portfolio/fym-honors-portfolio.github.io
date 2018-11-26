@@ -224,10 +224,18 @@ h2{
   width: 100%;
 }
 
-.body .post{
+.main-body .post{
   border: 3px solid #7c7bf2;
   border-radius: 10px;
   margin: 2em;
+  width: 80%; 
+}
+
+.main-body{
+  margin:0;
+  position: absolute;
+  top: 37%; 
+  left: 0px;
 }
 
 .body{
@@ -235,20 +243,25 @@ h2{
   left:0;
   right:0;
   align-items: center;
-  /*background-image: url("images/mountains.jpg");*/
-  height:40vh;
+  background-image: url("images/mountains.jpg");
+  height:65vh;
   background-size: cover;
   display:block;
-  z-index: 100;
+  z-index: -1;
+  opacity: .4;
   display:block;
   overflow: hidden;
   clear:both;
 }
+
 .post p{
-  color:#333;
+  color:#000;
   margin:2em;
   margin-left:5%;
   margin-right: 5%;
+  opacity: 1.5;
+  z-index: 100;
+  line-height: 1.7em;
 }
 
 .download{
