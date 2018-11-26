@@ -295,3 +295,11 @@ hr {
 .download:hover {
    text-decoration: underline;
 }
+.grid{
+   width: 120%;
+}
+.grid img{
+   display: inline-block;
+   width: 40%;
+   position: relative;
+}
