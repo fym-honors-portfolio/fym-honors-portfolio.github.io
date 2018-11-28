@@ -7,22 +7,13 @@ body {
    font-weight: bold;
 }
 
-.main-header .main-body-nav {
-   display:inline-flex;
-   color: #FFF;
-   font-family: 'Raleway';
-   clear: both;
-   margin-bottom: 1%;
-   text-decoration-style: none;
-}
-
 .main-header {
    background-color: #333;
    width: 100%;
    position: relative;
    clear: both;
    overflow: hidden;
-   display: inline-block;
+
 }
 
 .main-header .left-narration {
@@ -35,6 +26,15 @@ body {
    width: 10%;
 }
 
+.main-header .main-body-nav {
+   display:inline-flex;
+   color: #FFF;
+   font-family: 'Raleway';
+   clear: both;
+   margin-bottom: 1%;
+   text-decoration-style: none;
+}
+
 .main-header .main-body-nav > a {
    display: inline-block;
    font-weight: bold;
@@ -43,6 +43,12 @@ body {
    padding: 1.2em;
    margin-left: 4px;
    border: 2px solid transparent;
+}
+
+.main-body-nav > a:hover {
+   opacity: .5;
+   border: 2px solid #7C7BF2;
+   color: #7C7BF2;
 }
 
 .dropdown a {   
@@ -56,12 +62,6 @@ body {
 }
 
 .dropdown a:hover{
-   opacity: .5;
-   border: 2px solid #7C7BF2;
-   color: #7C7BF2;
-}
-
-.main-body-nav > a:hover {
    opacity: .5;
    border: 2px solid #7C7BF2;
    color: #7C7BF2;
@@ -91,6 +91,80 @@ h2 {
    font-family: Raleway;
 }
 
+.footer {
+   align-items: center;
+   background-color: rgb(51, 51, 51, .9);
+   display: block;
+   z-index: 100;
+   bottom: 0;
+   font-size: .6em;
+   color: #fff;
+   overflow: hidden;
+   width: 100%;
+   opacity: 1;
+}
+
+.post {
+   border: 3px solid #7c7bf2;
+   border-radius: 10px;
+   width: 80%;
+}
+
+hr {
+   width: 80%;
+   border-top: 2px solid #7c7bf2;
+}
+
+.together{
+   position: absolute;
+   top: auto;
+   width: 100%;
+   overflow:auto; 
+}
+
+.body{
+   opacity: .4;
+   width: 100%;
+}
+
+.body img{
+   width: 100%;
+   display: flex;
+   max-height: 70vh;
+}
+
+.post p {
+   color: #000;
+   margin-left: 5%;
+   margin-right: 5%;
+   z-index: 100;
+   opacity: 1;
+   line-height: 1.7em;
+}
+
+.main-body{
+   margin: 0;
+   top:0;
+   overflow: hidden; 
+   position: absolute;
+   width: 100%;
+   margin-top:3em;
+}
+.download {
+   display: inline-block;
+}
+
+.download:hover {
+   text-decoration: underline;
+}
+.grid{
+   width: 120%;
+}
+.grid img{
+   display: inline-block;
+   width: 40%;
+   position: relative;
+}
 .overlay {
    position: fixed;
    top: 0;
@@ -181,7 +255,7 @@ h2 {
    height: auto;
 }
 
-.table-row{
+.table-row {
    display: table-row;
 }
 .summary {
@@ -195,77 +269,5 @@ h2 {
    font-size: 1.6em;
    padding-left: 5%;
    padding-top: 10px;
-}
-
-.footer {
-   position: relative;
-   align-items: center;
-   background-color: rgb(51, 51, 51, .9);
-   display: block;
-   z-index: 100;
-   margin: 0;
-   font-size: .6em;
-   color: #fff;
-   overflow: hidden;
-   clear: both;
-   width: 100%;
-}
-
-.post {
-   border: 3px solid #7c7bf2;
-   border-radius: 10px;
-   width: 80%;
-}
-
-hr {
-   width: 80%;
-   border-top: 2px solid #7c7bf2;
-}
-
-.body{
-   align-items: center;
-   background-image: url("images/mountains.jpg");
-   height: 100%;
-   width: 100%;
-   background-size: cover;
-   display: flex;
-   position: absolute;
-   opacity: .4;
-   overflow: hidden;
-}
-
-.together{
-   position: relative;
-}
-.post p {
-   color: #000;
-   margin-left: 5%;
-   margin-right: 5%;
-   z-index: 100;
-   line-height: 1.7em;
-}
-.main-body .post{
-   margin: 3em;
-}
-
-.main-body{
-   margin: 0;
-   top:0;
-   clear: both;
-   overflow: hidden; 
-}
-.download {
-   display: inline-block;
-}
-
-.download:hover {
-   text-decoration: underline;
-}
-.grid{
-   width: 120%;
-}
-.grid img{
-   display: inline-block;
-   width: 40%;
-   position: relative;
+   padding-bottom: 10px;
 }
