@@ -158,11 +158,10 @@ hr {
    text-decoration: underline;
 }
 .grid{
-   width: 120%;
+   width: 140%;
 }
 .grid img{
    display: inline-block;
-   width: 40%;
    position: relative;
 }
 .overlay {
@@ -194,7 +193,8 @@ hr {
 }
 
 .popup img {
-   width: 80%;
+   width: 40%;
+   height: 100%;
    align-content: center;
 }
 
