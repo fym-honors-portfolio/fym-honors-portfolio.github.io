@@ -97,7 +97,7 @@ h2 {
    display: block;
    z-index: 100;
    bottom: 0;
-   font-size: .6em;
+   font-size: 2vh;
    color: #fff;
    overflow: hidden;
    width: 100%;
