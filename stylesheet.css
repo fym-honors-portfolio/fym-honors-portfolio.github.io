@@ -244,6 +244,11 @@ hr {
    border-radius: 3px;
    opacity: .6;
    display:table-cell;
+   text-decoration: none;
+}
+
+.gallery a{
+   text-decoration: none;
 }
 
 .gallery:hover {
